@@ -1,38 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
     <title>Netflix</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="header">
       <img src="images/netflixlogo.png" alt="Netflix Logo" class="logo" />
     </div>
-    <navbar>
-        <input type="text" placeholder="Search..." class="search-bar">
-
-        <button class="icon-button">🔔</button>
-
-        <div class="profile">
-            <img src="images/profile.jpg" alt="profile" id="profile">
-        </div>
     <div>
-        <img src="images/stranger-things.webp" alt="Stranger Things" class="main-image" />
-        <button class="play-button">Watch Now</button>
-        <button class="my-list-button">My List</button>
-        <h1 class="heading">Stranger Things</h1>
-        <p class="para">sci-fi/horror series centered on a mysterious child, a secret government research program,<br> and a small Midwest town, all told through the lens of 80s nostalgia.</p>
+    <header class="nav-header">
+      <navbar>
+        <input type="text" placeholder="Search..." class="search-bar" />
+        <div>
+          <button class="bell-button"><span>&#x1F514;</span></button>
+        </div>
+        <div class="profile">
+          <img src="images/profile.jpg" alt="profile" id="profile" />
+        </div>
+      </navbar>
+    </header>
+    </div>
+    <div>
+      <img
+        src="images/stranger-things.webp"
+        alt="Stranger Things"
+        class="main-image"
+      />
+      <button class="play-button">Watch Now</button>
+      <button class="my-list-button">My List</button>
+      <h1 class="heading">Stranger Things</h1>
+      <p class="para">
+        sci-fi/horror series centered on a mysterious child, a secret government
+        research program,<br />
+        and a small Midwest town, all told through the lens of 80s nostalgia.
+      </p>
     </div>
     <container>
-        <div class="sub-container">
-            <img src="images/breaking bad.webp" alt="Breaking Bad" class="sub-image" />
-            <img src="images/money-heist.webp" alt="Money Heist" class="sub-image" />
-            <img src="images/peaky-blinders.webp" alt="Peaky Blinders" class="sub-image" />
-            <img src="images/alice.webp" alt="Alice in Borderland" id="alice" class="sub-image" />
-            <img src="images/narcos.webp" alt="Narcos" class="sub-image" />
-        </div>
+      <div class="sub-container">
+        <img
+          src="images/breaking bad.webp"
+          alt="Breaking Bad"
+          class="sub-image"
+        />
+        <img
+          src="images/money-heist.webp"
+          alt="Money Heist"
+          class="sub-image"
+        />
+        <img
+          src="images/peaky-blinders.webp"
+          alt="Peaky Blinders"
+          class="sub-image"
+        />
+        <img
+          src="images/alice.webp"
+          alt="Alice in Borderland"
+          id="alice"
+          class="sub-image"
+        />
+        <img src="images/narcos.webp" alt="Narcos" class="sub-image" />
+      </div>
     </container>
-</body>
+  </body>
 </html>
