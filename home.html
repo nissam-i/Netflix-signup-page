@@ -1,68 +1,56 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="home.css" />
-    <title>Netflix</title>
-  </head>
-  <body>
-    <div class="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="home.css" />
+  <title>Netflix</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="logo-container">
       <img src="images/netflixlogo.png" alt="Netflix Logo" class="logo" />
     </div>
-    <div>
-    <header class="nav-header">
-      <navbar>
+    <nav class="nav-right">
+      <div class="search-container">
         <input type="text" placeholder="Search..." class="search-bar" />
-        <div>
-          <button class="bell-button"><span>&#x1F514;</span></button>
-        </div>
-        <div class="profile">
-          <img src="images/profile.jpg" alt="profile" id="profile" />
-        </div>
-      </navbar>
-    </header>
-    </div>
-    <div>
-      <img
-        src="images/stranger-things.webp"
-        alt="Stranger Things"
-        class="main-image"
-      />
-      <button class="play-button">Watch Now</button>
-      <button class="my-list-button">My List</button>
-      <h1 class="heading">Stranger Things</h1>
-      <p class="para">
-        sci-fi/horror series centered on a mysterious child, a secret government
-        research program,<br />
-        and a small Midwest town, all told through the lens of 80s nostalgia.
-      </p>
-    </div>
-    <container>
-      <div class="sub-container">
-        <img
-          src="images/breaking bad.webp"
-          alt="Breaking Bad"
-          class="sub-image"
-        />
-        <img
-          src="images/money-heist.webp"
-          alt="Money Heist"
-          class="sub-image"
-        />
-        <img
-          src="images/peaky-blinders.webp"
-          alt="Peaky Blinders"
-          class="sub-image"
-        />
-        <img
-          src="images/alice.webp"
-          alt="Alice in Borderland"
-          id="alice"
-          class="sub-image"
-        />
-        <img src="images/narcos.webp" alt="Narcos" class="sub-image" />
       </div>
-    </container>
-  </body>
+      <button class="bell-button">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M12 2C10.34 2 9 3.34 9 5V5.51C6.61 6.2 5 8.41 5 11V16L3 18V19H21V18L19 16V11C19 8.41 17.39 6.2 15 5.51V5C15 3.34 13.66 2 12 2Z"
+            stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M10 22C10.55 22 11.2 22.5 12 22.5C12.8 22.5 13.45 22 14 22" stroke="white" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <div class="profile-container">
+        <img src="images/profile.jpg" alt="profile" class="profile-img" />
+      </div>
+    </nav>
+  </header>
+  <div>
+    <img src="images/stranger-things.webp" alt="Stranger Things" class="main-image" />
+    <button class="play-button">Watch Now</button>
+    <button class="my-list-button">My List</button>
+    <h1 class="heading">Stranger Things</h1>
+    <p class="para">
+      sci-fi/horror series centered on a mysterious child, a secret government
+      research program,<br />
+      and a small Midwest town, all told through the lens of 80s nostalgia.
+    </p>
+  </div>
+  <container>
+    <div class="sub-container">
+      <img src="images/breaking bad.webp" alt="Breaking Bad" class="sub-image" />
+      <img src="images/money-heist.webp" alt="Money Heist" class="sub-image" />
+      <img src="images/peaky-blinders.webp" alt="Peaky Blinders" class="sub-image" />
+      <img src="images/alice.webp" alt="Alice in Borderland" id="alice" class="sub-image" />
+      <img src="images/narcos.webp" alt="Narcos" class="sub-image" />
+    </div>
+  </container>
+</body>
+
 </html>
